@@ -5,6 +5,7 @@ import Barchart from './Barchart';
 import BrandNewBarChartOkay from './brandNewBarChartOkay';
 import TestingFauxReact from './TestingFauxReact';
 import NewTestingFauxReact from './NewTestingFauxReact';
+import BrandNewTheBarChart from './BrandNewTheBarChart';
 
 class App extends Component {
 
@@ -17,7 +18,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
 					<div className="svg-container">
-						<Barchart />
+						<BrandNewTheBarChart />
 					</div>
         </header>
       </div>
