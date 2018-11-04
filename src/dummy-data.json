@@ -1,0 +1,299 @@
+{
+  "name": "Regs",
+  "data": {
+    "hours": [
+      {
+        "hour": "01:00",
+        "metric": {
+          "name": "registration",
+          "value": 15,
+          "last_week_value": 10,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "02:00",
+        "metric": {
+          "name": "registration",
+          "value": 13,
+          "last_week_value": 8,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "03:00",
+        "metric": {
+          "name": "registration",
+          "value": 10,
+          "last_week_value": 5,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "04:00",
+        "metric": {
+          "name": "registration",
+          "value": 9,
+          "last_week_value": 4,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "05:00",
+        "metric": {
+          "name": "registration",
+          "value": 7,
+          "last_week_value": 2,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "06:00",
+        "metric": {
+          "name": "registration",
+          "value": 15,
+          "last_week_value": 10,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "07:00",
+        "metric": {
+          "name": "registration",
+          "value": 19,
+          "last_week_value": 14,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "08:00",
+        "metric": {
+          "name": "registration",
+          "value": 17,
+          "last_week_value": 12,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "09:00",
+        "metric": {
+          "name": "registration",
+          "value": 13,
+          "last_week_value": 8,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "10:00",
+        "metric": {
+          "name": "registration",
+          "value": 12,
+          "last_week_value": 7,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "11:00",
+        "metric": {
+          "name": "registration",
+          "value": 11,
+          "last_week_value": 6,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "12:00",
+        "metric": {
+          "name": "registration",
+          "value": 13,
+          "last_week_value": 8,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "13:00",
+        "metric": {
+          "name": "registration",
+          "value": 15,
+          "last_week_value": 10,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "14:00",
+        "metric": {
+          "name": "registration",
+          "value": 14,
+          "last_week_value": 9,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "15:00",
+        "metric": {
+          "name": "registration",
+          "value": 13,
+          "last_week_value": 8,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "16:00",
+        "metric": {
+          "name": "registration",
+          "value": 12,
+          "last_week_value": 7,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "17:00",
+        "metric": {
+          "name": "registration",
+          "value": 11,
+          "last_week_value": 6,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "18:00",
+        "metric": {
+          "name": "registration",
+          "value": 10,
+          "last_week_value": 5,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "19:00",
+        "metric": {
+          "name": "registration",
+          "value": 8,
+          "last_week_value": 3,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "20:00",
+        "metric": {
+          "name": "registration",
+          "value": 6,
+          "last_week_value": 1,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "21:00",
+        "metric": {
+          "name": "registration",
+          "value": 13,
+          "last_week_value": 8,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "22:00",
+        "metric": {
+          "name": "registration",
+          "value": 12,
+          "last_week_value": 7,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "23:00",
+        "metric": {
+          "name": "registration",
+          "value": 13,
+          "last_week_value": 8,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      },
+      {
+        "hour": "24:00",
+        "metric": {
+          "name": "registration",
+          "value": 15,
+          "last_week_value": 10,
+          "__typename": "EngagementMetricType"
+        },
+        "__typename": "Hour"
+      }
+    ],
+    "target": 250,
+    "__typename": "Hours"
+  },
+  "lineData": [
+    1.5,
+    1.3,
+    1,
+    0.9,
+    0.7,
+    1.5,
+    1.9,
+    1.7,
+    1.3,
+    1.2,
+    1.1,
+    1.3,
+    1.5,
+    1.4,
+    1.3,
+    1.2,
+    1.1,
+    1,
+    0.8,
+    0.6,
+    1.3,
+    1.5,
+    1.3,
+    1.2,
+    1.1,
+    1
+  ],
+  "barData": [
+    15,
+    13,
+    10,
+    9,
+    7,
+    15,
+    19,
+    17,
+    13,
+    12,
+    11
+  ],
+  "legend": [
+    {
+      "name": "Registrations today"
+    },
+    {
+      "styleName": "White",
+      "name": "Registrations conversion rate"
+    }
+  ]
+}

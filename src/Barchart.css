@@ -1,0 +1,499 @@
+text {
+	font-family: sans-serif;
+}
+
+.bar {
+	fill: cornflowerblue;
+}
+
+.bar:hover {
+	fill: pink;
+}
+
+.axis path {
+	fill: blue;
+}
+
+.axis--x path {
+	display: none;
+}
+
+svg {
+	background: pink;
+}
+
+/*
+rect {
+	fill: white;
+}*/
+
+.y-axis {
+	background: blue;
+	height: 20px;
+}
+
+
+#tooltip {
+	position: absolute;
+	width: 200px;
+	height: auto;
+	padding: 10px;
+	background-color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	pointer-events: none;
+}
+
+#tooltip.hidden {
+	display: none;
+}
+
+#tooltip p {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: black;
+}
+
+
+.DashboardItem {
+	display: block;
+	width: 100%;
+	max-width: 670px;
+	background: #1c1a1d;
+	padding: 24px 32px;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	height: auto;
+}
+
+.SubHeader {
+	display: block;
+	margin-bottom: 5px;
+	color: #6f6f6f;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.Title {
+	display: block;
+	margin-bottom: 25px;
+	color: #a2a2a2;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.InteractiveContent {
+	display: flex;
+	margin-bottom: 25px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.InteractionBlockStacked {
+	display: flex;
+	margin-bottom: 25px;
+	align-items: center;
+	width: 50%;
+	margin: 50px 0 0;
+	flex-wrap: wrap;
+	padding-right: 32px;
+}
+
+.InteractionBlockRows {
+	display: flex;
+	align-items: center;
+	width: 50%;
+	margin: -40px 0 0;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	flex: 0 0 auto;
+}
+
+.ContentBlock {
+	width: 50%;
+	height: 110px;
+	margin-bottom: 40px;
+	flex: 0 0 auto;
+}
+
+.ContentBlock.Top {
+	border-bottom: 1px solid #333;
+}
+
+.LifecycleBlock {
+	display: flex;
+	width: 25%;
+	height: 130px;
+	margin-right: 8px;
+	padding: 16px 8px 16px 16px;
+	flex-direction: column;
+	border-top: 5px solid #000;
+	border-radius: 4px;
+	background-color: #000;
+	opacity: .51;
+	transition: all 200ms ease;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.LifecycleBlockTitle {
+	margin-bottom: 6px;
+	color: #a2a2a2;
+	line-height: 20px;
+}
+
+.LifecycleTotal {
+	position: relative;
+	display: flex;
+}
+
+.LifecycleAmount {
+	margin-right: 8px;
+	color: #fff;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.TriangleContainer {
+	position: relative;
+	cursor: pointer;
+}
+
+.TargetCount {
+	margin-top: 4px;
+	margin-left: 4px;
+	color: hsla(0, 0%, 100%, .5);
+}
+
+.Tooltip {
+	position: absolute;
+	left: 50%;
+	right: 0px;
+	bottom: 35px;
+	width: 100px;
+	height: 50px;
+	padding: 9px 5px 5px;
+	flex-direction: column;
+	border: 1px solid #727272;
+	border-radius: 3px;
+	background-color: #111012;
+	transform: translate(-50%, 0px);
+	text-align: left;
+	display: none;
+}
+
+.Tooltip.Closer {
+	bottom: 44px;
+	width: 190px;
+}
+
+.TriangleContainer:hover .Tooltip {
+	display: flex;
+}
+
+.TriangleDownBg {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: -10px;
+	display: block;
+	width: 0;
+	height: 0;
+	margin-right: auto;
+	margin-left: auto;
+	border-top: 10px solid #727272;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+
+.TriangleDown {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: -9px;
+	display: block;
+	width: 0;
+	height: 0;
+	margin-right: auto;
+	margin-left: auto;
+	border-top: 10px solid #111012;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+
+.SmallK {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.TooltipTitle {
+	margin-bottom: 7px;
+	padding-left: 8px;
+	color: #727272;
+	font-size: 11px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.TooltipSubTitle {
+	padding-left: 8px;
+	color: #fff;
+	text-align: left;
+	font-weight: 600;
+}
+
+.TriangleIndicator {
+	position: relative;
+	width: 0;
+	height: 0;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #0d9d8b;
+	border-left: 8px solid transparent;
+}
+
+.TriangleContainer.Down>.TriangleIndicator {
+	border-bottom-color: #ff331f;
+	transform: rotate(180deg);
+}
+
+.HourChartSmall {
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 64px;
+	padding: 0 16px;
+	justify-content: space-around;
+}
+
+.SmallBar {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	display: block;
+	width: 4px;
+	height: 94%;
+	margin: 0 auto;
+	flex: 0 0 auto;
+	border-radius: 3px;
+	background-image: linear-gradient(180deg, #00ffd7, #2fbdff);
+	cursor: pointer;
+}
+
+.SmallBar.Active {
+	background-color: #e9a402;
+	background-image: none;
+}
+
+.SmallBar.Inactive {
+	border-style: solid;
+	border-width: 1px;
+	border-color: hsla(0, 0%, 100%, .1);
+	background-color: #000;
+	background-image: none;
+}
+
+.SmallBarContainer:hover .MultidropTriangleContainer {
+	display: block;
+}
+
+.MultidropTriangleContainer {
+	position: absolute;
+	left: -8px;
+	bottom: -14px;
+	z-index: 9;
+	display: none;
+	width: 15px;
+	height: 10px;
+}
+
+.MultiTriangleBg {
+	position: absolute;
+	bottom: 0px;
+	z-index: 10;
+	border-right: 10px solid transparent;
+	border-bottom: 8px solid #767676;
+	border-left: 10px solid transparent;
+}
+
+.MultiTriangleBgTop {
+	position: absolute;
+	bottom: -1px;
+	z-index: 10;
+	border-right: 10px solid transparent;
+	border-bottom: 8px solid #000;
+	border-left: 10px solid transparent;
+}
+
+.MultiReadDropdown {
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	bottom: -123px;
+	z-index: 0;
+	display: none;
+	width: 90%;
+	height: 76px;
+	padding: 16px;
+	flex-direction: column;
+	border: 1px solid #767676;
+	border-radius: 4px;
+	background-color: #000;
+	transform: translate(-50%, 0);
+	z-index: 5;
+}
+
+.HourBlockContainer {
+	display: block;
+}
+
+.TimeCentre {
+	width: 100%;
+	height: 30px;
+	margin: 31px 0 34px;
+}
+
+.HourBlock {
+	display: flex;
+	height: 32px;
+	margin-bottom: 16px;
+	justify-content: space-around;
+	grid-column-gap: 16px;
+	grid-row-gap: 16px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+}
+
+.HourBlock.Times {
+	height: 12px;
+	margin-bottom: 8px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex: 1;
+}
+
+.TimeLabel {
+	color: hsla(0, 0%, 100%, .5);
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.TimeContainer {
+	display: flex;
+	width: 10px;
+	height: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.LineMark {
+	width: 1px;
+	height: 4px;
+	background-color: #494949;
+}
+
+.LiveTime {
+	width: 4px;
+	border-radius: 50%;
+	background-color: #e9a402;
+}
+
+.SmallBarContainer {
+	position: relative;
+	padding: 0 1px;
+	flex: 1;
+	cursor: pointer;
+}
+
+.HourChartSmall .SmallBarContainer {
+	opacity: 1;
+}
+
+.HourChartSmall:hover .SmallBarContainer {
+	opacity: 0.35;
+	transition: opacity .5s;
+}
+
+.HourChartSmall:hover .MultiReadDropdown {
+	display: flex;
+}
+
+.HourChartSmall .SmallBarContainer:hover {
+	opacity: 1;
+	cursor: pointer;
+	transition: opacity 0.001s;
+}
+
+.MultiReadDropdown:hover {
+	display: none;
+}
+
+.MultiReadDropdownTitle {
+	display: flex;
+	height: 10px;
+	margin-bottom: 16px;
+	flex: 0 0 auto;
+	color: #a2a2a2;
+	font-size: 10px;
+	line-height: 11px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.LargeDropdownContent {
+	position: relative;
+	display: flex;
+	height: 55px;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+}
+
+.TooltipBlock {
+	margin-right: 24px;
+}
+
+.TooltipBlockTitle {
+	margin-bottom: 16px;
+	color: #a2a2a2;
+	font-size: 12px;
+}
+
+.TooltipBlockAmount {
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.Change {
+	position: relative;
+	top: -1px;
+	margin-left: 8px;
+	color: #0d9d8b;
+	font-size: 12px;
+}
+
+.TriangleContainer.Down>.Tooltip>.TooltipSubTitle>.Change {
+	color: #ff331f;
+}
+
+.SmallBarContainer:hover .SmallBar>.MultidropTriangleContainer {
+	opacity: 1;
+}
+
+.svg-content-responsive {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
